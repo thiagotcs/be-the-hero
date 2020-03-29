@@ -13,7 +13,7 @@ app.use(routes);
 app.listen(3333);
 
 /*
- * Rota / Recurso
+ * Rota / são Recurso
  */
 
 /**
@@ -25,17 +25,20 @@ app.listen(3333);
  * PUT: Alterar uma informação no Back-end
  * DELETE: Deletar uma informação no Back-end
  * 
+ * request = guarda todas os dados que vem de uma requesição do usuário
+ * response = é o responsável para retornar uma resposta para usúario 
+ * 
  */
-
 
  /**
   *  Tipos de parâmetros:
   * 
   * Query params: parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
-  * Route Parms: parâmetros ultilizados para identificar recursos
+  * Route Parms: parâmetros ultilizados para identificar recursos +++++ buscar Rota / são Recurso
   * Request Body: corpo da requisição, utilizado para criar ou alterar recursos
   * 
   */
+
 /**
  * 
  * SQL: MySQL, SQLite, PostgreSQL, Oracle, Micrisoft SQL Server
